@@ -16,6 +16,7 @@ angular.module('webwalletApp').controller('ImportCtrl', function (
             address_type: 0,
             coin_name: "Ethereum",
             coin_shortcut: "ETH",
+            maxfee_kb: 0
         }
     };
 
