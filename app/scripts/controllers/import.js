@@ -12,17 +12,10 @@ angular.module('webwalletApp').controller('ImportCtrl', function (
     'use strict';
 
     $scope.coins = {
-        Bitcoin: {
+        Ethereum: {
             address_type: 0,
-            coin_name: "Bitcoin",
-            coin_shortcut: "BTC",
-            maxfee_kb: 10000
-        },
-        Testnet: {
-            address_type: 111,
-            coin_name: "Testnet",
-            coin_shortcut: "TEST",
-            maxfee_kb: 10000000
+            coin_name: "Ethereum",
+            coin_shortcut: "ETH",
         }
     };
 
